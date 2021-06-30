@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_load_data_from_raw"
+        android:orderInCategory="100"
+        android:title="Load data from raw"
+        android:onClick="clickToLoadFromRaw"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/save_data_to_internal"
+        android:orderInCategory="100"
+        android:title="Save data to internal"
+        android:onClick="clickToSaveData"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/load_from_internal"
+        android:orderInCategory="100"
+        android:title="Load from internal"
+        android:onClick="clickToLoadFromInternal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/save_to_external"
+        android:orderInCategory="100"
+        android:title="Save to SD card"
+        android:onClick="clickToSaveToExternal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/load_from_sd_card"
+        android:orderInCategory="100"
+        android:title="Load from SD Card"
+        android:onClick="clickToLoadFromExternal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/backup_to_sd_card"
+        android:orderInCategory="100"
+        android:title="Backup to SD Card"
+        android:onClick="clickToBackupToExternal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/restore_from_sd_card"
+        android:orderInCategory="100"
+        android:title="Restore from SD Card"
+        android:onClick="clickToRestoreFromExternal"
+        app:showAsAction="never" />
+</menu>
